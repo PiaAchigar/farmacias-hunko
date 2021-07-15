@@ -12,6 +12,14 @@ export default function Home() {
           content="farmacia,perfumeria,electro belleza,medicamentos"
         />
         <link rel="icon" href="/img/CruzLogoHunko.png" />
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+        />
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        />
       </Head>
 
       <main className={styles.main}>
@@ -19,31 +27,29 @@ export default function Home() {
 
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2>Documentation &rarr;</h2>
-            <p>Find in-depth information about Next.js features and API.</p>
+            <h2>Liniers &rarr;</h2>
+            <p>Farmacia Social Hunko - Carhue 99</p>
           </a>
 
           <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>Learn &rarr;</h2>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
+            <h2>Caseros &rarr;</h2>
+            <p>Farmacia Hunko - Av. Alvear 4787</p>
           </a>
 
           <a
             href="https://github.com/vercel/next.js/tree/master/examples"
             className={styles.card}
           >
-            <h2>Examples &rarr;</h2>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+            <h2>Contactos &rarr;</h2>
+            <p>Telefono - mail - whatsapp</p>
           </a>
 
           <a
             href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
             className={styles.card}
           >
-            <h2>Deploy &rarr;</h2>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
+            <h2>Catalogo de Productos &rarr;</h2>
+            <p>Maquillajes - Perfumes - Dermocosmética</p>
           </a>
         </div>
       </main>
