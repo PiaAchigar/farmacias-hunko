@@ -1,7 +1,10 @@
-import '../styles/globals.css'
+import "../styles/globals.css";
+import React from "react";
+import ReactDOM from "react-dom";
 
 function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+  return <Component {...pageProps} />;
 }
 
-export default MyApp
+export default MyApp;
+// ReactDOM.render(<App />, document.querySelector("#app"));
